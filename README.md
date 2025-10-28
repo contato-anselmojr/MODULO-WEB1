@@ -60,7 +60,7 @@ Todas as páginas passaram no **validador W3C** sem erros.
 
 ## ✨ Autor
 
-Desenvolvido por **Anselmo junior**
+Desenvolvido por **Anselmo juniore Luiz Felix da Silva Filho**
 Curso: *Análise e Desenvolvimento de Sistemas*
 Disciplina: *Desenvolvimento Web – Atividade 1*
 
