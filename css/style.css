@@ -1,0 +1,128 @@
+/* ===== RESET BÁSICO ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== FUNDO E ESTRUTURA ===== */
+body {
+  background: linear-gradient(180deg, #004d5d 0%, #00798c 100%);
+  color: #fff;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ===== CABEÇALHO ===== */
+header {
+  background-color: #00798c;
+  color: #fff;
+  padding: 25px 40px;
+  margin: 40px auto 0 auto;
+  max-width: 900px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* TOPO: logo + título + menu */
+header .topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* BLOCO ESQUERDO (logo + título) */
+header .info-ong {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header .info-ong h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* IMAGEM NO TOPO */
+.logo-topo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+/* MENU */
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ffdd57;
+}
+
+/* ===== CONTEÚDO PRINCIPAL ===== */
+main {
+  max-width: 900px;
+  margin: 0 auto 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  color: #333;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+main h2 {
+  color: #005f73;
+  margin-bottom: 15px;
+}
+
+main h3 {
+  color: #0a9396;
+  margin-top: 15px;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+  background-color: #005f73;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 800px) {
+  header .topo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  main {
+    margin: 20px;
+    padding: 20px;
+  }
+}
